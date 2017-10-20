@@ -36,3 +36,13 @@ testLet();
   50
   30
     -->
+
+
+const colors = [];
+
+colors.push('red');
+colors.push('blue');
+
+colors = 'Green'; # throws error..
+
+console.log(colors)
