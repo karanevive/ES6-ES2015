@@ -10,6 +10,21 @@ function greet($greeting = 'Hello World'){
 greet();
 
 
+# More example of default params
+# https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
+function test(num = 1) {
+  console.log(typeof num);
+}
+
+test();          // 'number' (num is set to 1)
+test(undefined); // 'number' (num is set to 1 too)
+
+// test with other falsy values:
+test('');        // 'string' (num is set to '')
+test(null);      // 'object' (num is set to null)
+
+
+
 let args1 = [1,2,3];
 let args2 = [4,5,6];
 
