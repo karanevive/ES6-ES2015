@@ -11,3 +11,5 @@ let template =
 <p>This is a simple template in JavaScript</p>`;
 
 document.getElementById('template').innerHTML = template;
+
+# special character used in template variable is `
