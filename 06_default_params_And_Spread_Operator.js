@@ -32,5 +32,7 @@ function test(){
   console.log(args1+','+args2);
 }
 
+// spread operator
+
 //test.apply(null, args);
 test(...args1,...args2);
